@@ -7,7 +7,7 @@ public struct future_value {
     
     public init(_ principal: Double, _ apr: Double, _ years: Double){
         self.p = principal
-        self.r = apr / 100
+        self.r = apr / 100 //adjusted so that it works the same as the mortgage calculations
         self.t = years
     }
     
