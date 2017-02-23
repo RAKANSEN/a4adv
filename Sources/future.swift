@@ -1,3 +1,6 @@
+import Foundation
+import Darwin
+
 public struct future_value {
     public let p: Double
     public let r: Double
